@@ -1,6 +1,9 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 
+import '../components/FieldSet.css';
+import './ThankYouPage.css';
+
 const ThankYouPage: React.FC = () => {
 
   // Arrow function to get the data collected with the fields and values

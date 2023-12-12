@@ -5,6 +5,8 @@ import { setFields } from '../redux/formSlice';
 
 import FieldSet from '../components/FieldSet';
 
+import './FormPage.css';
+
 const FormPage: React.FC = () => {
 
   // Added useDispatch and useSelector hooks
